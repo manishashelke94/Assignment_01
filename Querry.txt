@@ -1,0 +1,34 @@
+*Your analysis for given exercise: We analyse how to break our website into small sections. In that Perticular section what kind of functionality it have.
+  We disscuse with our team and assign a small task to each pair and start the coding.
+
+	
+*Your approach towards completing the exercise, share your steps to complete the exercise.
+1)By observation we divided the given pomplet into sections.
+2)Total 8 members in our team so we form 2 2 members group (ie 4 groups). Each group took one sections n work on that.
+3)Create folder structure. Folders->1]Root (Index.html)
+                                    2]CSS(style.css)
+                                    3]JS(script.js)
+                                    4]Assets=>a)Image-folder
+                                              b)Video-folder
+                                              c)Audio-folder
+4) According to section dividation Me and Varad assigned our cilent says section.
+5)First we both decide how to go for it. Means what type css n boostrap classes we needed for this task. What type of carousel we need for it.
+6)Then we go for writing a code.
+7)we write some code on trial n run n checking it into browser and inspect it.
+	
+*What challenges you faced while analyzing
+   -In Our Section There is Courosal, And that courosal It has buttons and that On Click of botton It has toggle property 
+   - we get bootstrap Courosal and Customize it.
+   - We Tried Achive Proper Card Structure in that Courosal 
+   - Input Buttons (Previous and Next) are not working in bootsrap Courosal.
+   - We tried to use Arrow icon for courosal button click , but when we place one icon the it work but after placing second icon at that time no one icon is work on click. 
+     And also facing the problems to put that icon on that carousel buttons.  
+	
+*Is your current knowledge has helped to complete exercise.
+Yes it help to complete the exercise But we have to Explore more, Like Uses of boostrap classes, CSS Grading, Font and style.
+  
+	
+*What technical things you found missing to complete exercise.
+=>Boostrap Classes, CSS Grading , Proper debug and get proper css from inspect.
+ challenge is to achieve required carousel, and changing arrows.    
+   

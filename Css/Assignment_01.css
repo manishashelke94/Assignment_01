@@ -1,0 +1,98 @@
+.img {
+    height: 50px;
+}
+
+.seconddiv {
+    background-color: #F7F7FB;
+    height: 400px;
+    width: 100%;
+}
+.section3 {
+    text-align: Center;
+}
+
+a:hover input {
+    text-decoration: underline;
+}
+.section2 {
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,212,216,1) 100%);
+}
+.section2img {
+    width: 200px;
+    height: 200px;
+}
+.ourClient1 {
+    font-size: 30px;
+
+}
+.body {
+    font-family: "Poppins", sans-serif;
+}
+
+element.style {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+    font-size: small;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.footer {
+    padding-left: 50px;
+ 
+}
+
+.our{
+    color: #C0C0C0;
+}
+.contact{
+    color: #A21C28;
+}
+.contact-row{
+    background-color: #F7F7FB;
+}
+.Our-contact-heading {
+    line-height: 0.7;
+}
+tbody, td, tfoot, th, thead, tr {
+    line-height: 2;
+}
+.contact-form{
+    opacity: 0.5;
+    background-color: white;
+}
+.custom-rounded{
+    border-radius: 10px;
+}
+.contact-button{
+    background-color: #A21C28;
+    color: white;
+    border-radius: 10px;
+}
+.contact-button:hover{
+    color: white;
+}
+
+
+.navbarBlur
+{
+    background-color: #ffffff;
+    backdrop-filter: blur(13px);
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.card.h-100 {
+    border: none;
+}
