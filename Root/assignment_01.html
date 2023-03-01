@@ -25,63 +25,82 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
       <!--Navbar-->
-        <section>
-          <div class="row" >
-            <div class="col-md-12">
-              <div class="row">
-                <nav  class=" navbar-expand-lg bg-body-tertiary d-flex navbarBlur position-fixed w-100 " style="padding-top: 20px;" >
-              
-                  <div class="col-md-6">
-                      <img  class="ms-5" src="/Assests/Asset 1.png" height="50px" />
-                  </div>
-                  <div class="col-md-1">
-                      <a class="nav-link active" aria-current="page" href="#" ><b>Home</b> </a>
-                  </div>
-                  <div class="col-md-2">
-                      <a class="nav-link active" aria-current="page" href="#" ><b>why choose us</b> </a>
-                  </div>
-                  <div class="col-md-1">
-                      <a class="nav-link active" aria-current="page" href="#" ><b>Blog</b> </a>
-                  </div>
-                  <div class="col-md-1">
-                      <a class="nav-link active" aria-current="page" href="#" ><b>contact</b> </a>
-                  </div>
-                  <div class="col-md-1">
-                      <button type="button" class="btn btn-sm me-5" style="background-color:#A21C28 ;margin-right: 50px; color: white;"  >Login</button>
-                  </div>
-             
-                </nav>
+      <section>
+        <!-- <div class="container"> -->
+          <div class="top-0 p-0 container w-100">
+            <div class="d-flex navbarBlur  position-fixed   justify-content-around py-3  align-item-center"
+              style="width:1120px">
+              <div class="LogoWraper justify-content-start align-item-center">
+                <img src="/Assests/Asset 1.png" width="126px" height="45px" alt="">
               </div>
-             
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Why Choose us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-us">Contact</a>
+                </li>
+                <button class="loginBtn"> Login</button>
+              </ul>
             </div>
-            </div>
-            
-        </section>
+          <!-- </div> -->
+      </section>
 
-      <!--second section-->
+      <!--Home section-->
         <section>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card mb-3 section2 "  style="max-width: 100%;">
-                <div class="row g-0">
-                <div class="col-md-5">
-                    <div class="card-body" >
-                      <p><b>#Para</b><b style="color: #A21C28;">Troopers</b></p>
-                      <p><b>Enjoy to working With Us!</b></p>
-                      <p><b>Lorem ipsum color sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut.</b></p>
-                      <button type="button" class="btn btn-sm " style="color: #A21C28;">Read More</button>
+          <div class="HomeSection p-4 border">
+            <div class="row p-1 ">
+              <div class="col -md-5">
+                <div class="FirstHeading  d-flex  h-100  justify-content-center align-items-center ">
+                  <div class=" ">
+                    <div class="d-flex">
+                      <span>
+                        <h1 class="fw-bold Hero-heading">#Para</h1>
+                      </span>
+                      <span>
+                        <h1 class="Hero-text fw-bold">Troopers -</h1>
+                      </span>
                     </div>
-                </div>
-              
-                  <div class="col-md-7 ">
-                    <img src="/Assests/FirstPage.png" class="img-fluid " alt="...">
+                    <h3 class="fw-bold"> Enjoy to working With Us! </h3>
+                    <p class="HomePara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                    </p>
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                      aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Show a second modal and hide this one with the button below.
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open
+                              second modal</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="  ModalButton" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Read
+                      More</button>
                   </div>
                 </div>
+              </div>
+              <div class="col -md-7">
+                <div class="HomeHeroImage float-start   w-100 d-flex justify-content-around align-items-center">
+                  <img src="/Assests/FirstPage.png" class="img-fluid" alt="">
                 </div>
+              </div>
             </div>
-            
           </div>
 
         </section>
@@ -145,6 +164,165 @@
         </section>
         
 <!--OurClient-->
+ <!--Our Client Say-->
+ <section>
+  <div class="container bgContainer">
+    <div class="row py-5">
+      <div class="d-flex justify-content-center">
+        <span class="grayWord">
+          <h1 class="fw-bold">Our</h1>
+        </span>&nbsp;
+        <span class="redWord">
+          <h1 class="fw-bold">Client</h1>
+        </span>&nbsp;
+        <span class="grayWord">
+          <h1 class="fw-bold">Says</h1>
+        </span>
+      </div>
+      <p class="text-center">
+        <b class="fw-bold">Our Amazing Clients Around the World!</b>
+      </p>
+    </div>
+    <div class="row">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 3.png" alt="" />
+                    <h5><b>Jojo</b></h5>
+                    <p>CEO at Denma</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 2.png" alt="" />
+                    <h5><b>Deven</b></h5>
+                    <p>Head of Dept.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 1.png" alt="" />
+                    <h5><b>Ashika</b></h5>
+                    <p>Design Head</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 3.png" alt="" />
+                    <h5><b>Jojo</b></h5>
+                    <p>CEO at Denma</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 2.png" alt="" />
+                    <h5><b>Deven</b></h5>
+                    <p>Head of Dept.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p><b>Lorem ipsum dolor sit.</b></p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Explicabo, nostrum. Assumenda inventore
+                      aspernatur ut fugit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12">
+                    <img src="/Assests/Ellipse 1.png" alt="" />
+                    <h5><b>Ashika</b></h5>
+                    <p>Design Head</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1">
+            <!-- <i class="bi bi-arrow-left-circle"  ></i> -->
+          </button>
+
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+            <!-- <i class="bi bi-arrow-right-circle" ></i> -->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!--ContactUs-->
 
 <section>
