@@ -205,15 +205,6 @@ tbody, td, tfoot, th, thead, tr {
     color: white;
 }
 
-
-.navbarBlur
-{
-    background-color: #ffffff;
-    backdrop-filter: blur(13px);
-    opacity: 0.8;
-    z-index: 2;
-}
-
-.card.h-100 {
+.h-100 {
     border: none;
 }
